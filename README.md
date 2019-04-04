@@ -11,8 +11,9 @@ This repo contains source files for the homepage (non-database portion) of the C
 
 <img src="https://i.imgur.com/IedpwAd.png" alt="Screenshot" width="500px">
 
-## How to make updates
+## How to update the website
 
-- If you have access to the virtual private server, you can clone this repo at the home directory (~).
-- Whenever this repo is updated, you can pull the changes and run `sh update_homepage.sh`. It will copy the contents into `var/www/html` directory.
+- Clone this repo at the home directory (~) of the virtual private server.
+- Pull the changes (`git pull`) from the server.
+- Run `sh update_homepage.sh`. It will copy the contents into `var/www/html` directory.
 - Note: Do not overwrite or delete `/var/www/html/philologic/` folder since it contains the database files.
