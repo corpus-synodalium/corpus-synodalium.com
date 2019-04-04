@@ -14,15 +14,5 @@ This repo contains source files for the homepage (non-database portion) of the C
 ## How to make updates
 
 - If you have access to the virtual private server, you can clone this repo at the home directory (~).
-- Whenever this repo is updated, you can pull the changes and copy the contents by running a script (example given below).
-
-```
-cp -rf ~/website/index.html /var/www/html/
-cp -rf ~/website/favicon.ico /var/www/html/
-cp -rf ~/website/pages /var/www/html/
-cp -rf ~/website/files /var/www/html/
-cp -rf ~/website/css /var/www/html/
-```
-
-- Do not overwrite `/var/www/html/philologic/` folder since it contains the database files.
-
+- Whenever this repo is updated, you can pull the changes and run `sh update_homepage.sh`. It will copy the contents into `var/www/html` directory.
+- Note: Do not overwrite or delete `/var/www/html/philologic/` folder since it contains the database files.
