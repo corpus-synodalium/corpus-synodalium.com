@@ -1,6 +1,7 @@
 # Update homepage (https://corpus-synodalium.com/)
-cp -rf ~/website/index.html /var/www/html/
-cp -rf ~/website/favicon.ico /var/www/html/
-cp -rf ~/website/pages /var/www/html/
-cp -rf ~/website/files /var/www/html/
-cp -rf ~/website/css /var/www/html/
+
+# Build and export static HTML files from Next.js project
+npx next build && npx next export
+
+# Copy the static HTML files from "out" directory to /var/www/html
+cp -rf out/* /var/www/html/
