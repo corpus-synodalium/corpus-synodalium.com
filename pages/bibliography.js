@@ -1,6 +1,5 @@
 const Bibliography = () => (
-    <main role="main" className="inner cover" id="text-body">
-        <br />
+    <>
         <div className="jumbotron">
             <h2>Bibliography</h2>
             <hr className="my-4" />
@@ -20,7 +19,7 @@ const Bibliography = () => (
                 </a>
             </p>
         </div>
-    </main>
+    </>
 );
 
 export default Bibliography;

@@ -1,6 +1,5 @@
-const documentation = () => (
-    <main role="main" className="inner cover" id="text-body">
-        <br />
+const Documentation = () => (
+    <>
         <div className="jumbotron">
             <h2>Documentation</h2>
             <hr className="my-4" />
@@ -52,7 +51,7 @@ const documentation = () => (
                 </a>
             </p>
         </div>
-    </main>
+    </>
 );
 
-export default documentation;
+export default Documentation;

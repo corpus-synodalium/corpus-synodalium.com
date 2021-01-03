@@ -1,7 +1,6 @@
 const FurtherResources = () => (
-    <main role="main" className="inner cover" id="text-body">
-        <h1 className="cover-heading">Further Resources</h1>
-        <br />
+    <>
+        <h2 className="mb-2rem">Further Resources</h2>
         <p>
             For those interested in comparing this local legislation with texts
             of the general law of the classical period, the following online
@@ -72,7 +71,7 @@ const FurtherResources = () => (
                 , maintained by David Freidenreich (Colby College).
             </li>
         </ol>
-    </main>
+    </>
 );
 
 export default FurtherResources;

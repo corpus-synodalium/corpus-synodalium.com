@@ -1,6 +1,6 @@
 const About = () => (
-    <main role="main" className="inner cover" id="text-body">
-        <h1 className="cover-heading bottom50">Project Description</h1>
+    <>
+        <h2 className="mb-2rem">Project Description</h2>
 
         <p>
             Late medieval European society was profoundly shaped by the legal
@@ -60,7 +60,7 @@ const About = () => (
             Europe.
         </p>
         <br />
-    </main>
+    </>
 );
 
 export default About;

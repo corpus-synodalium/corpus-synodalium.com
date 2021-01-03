@@ -1,7 +1,9 @@
+import Link from 'next/link';
+
 const Home = () => (
-    <main role="main" className="inner cover" id="text-body">
-        <h1 className="cover-heading">Corpus Synodalium</h1>
-        <h5 className="sub-heading">
+    <>
+        <h1>Corpus Synodalium</h1>
+        <h5 className="sub-heading mb-2rem">
             Local Ecclesiastical Legislation in Medieval Europe /
             <br />
             Législations ecclésiastiques locales dans l’Europe médiévale
@@ -27,8 +29,16 @@ const Home = () => (
 
         <p>
             The links above provide more information about the project, as well
-            as important guidelines on how to navigate the database. For further
-            details, please contact the project leader, Rowan Dorin (
+            as important guidelines on how to{' '}
+            <Link href="/citation">
+                <a>cite</a>
+            </Link>{' '}
+            and{' '}
+            <Link href="/documentation">
+                <a>navigate</a>
+            </Link>{' '}
+            the database. For further details, please contact the project
+            leader, Rowan Dorin (
             <a href="mailto:dorin@stanford.edu">dorin@stanford.edu</a>
             ).
         </p>
@@ -54,7 +64,7 @@ const Home = () => (
             </a>
         </p>
         <br />
-    </main>
+    </>
 );
 
 export default Home;

@@ -1,15 +1,15 @@
 const Acknowledgments = () => (
-    <main role="main" className="inner cover" id="text-body">
-        <h1 className="cover-heading bottom50">Acknowledgments</h1>
+    <>
+        <h2 className="mb-5">Acknowledgments</h2>
         <p>
-            <h3>Project Leader</h3>
+            <h4>Project Leader</h4>
             <ul>
                 <li>Rowan Dorin (Stanford University)</li>
             </ul>
         </p>
 
         <p>
-            <h3>Advisory Committee</h3>
+            <h4>Advisory Committee</h4>
             <ul>
                 <li>Christine Barralis (Université de Lorraine)</li>
                 <li>Véronique Beaulande-Barraud (Université de Grenoble)</li>
@@ -24,7 +24,7 @@ const Acknowledgments = () => (
         </p>
 
         <p>
-            <h3>Financial Support</h3>
+            <h4>Financial Support</h4>
             <ul>
                 <li>Milton Fund, Harvard University</li>
                 <li>
@@ -43,7 +43,7 @@ const Acknowledgments = () => (
         </p>
 
         <p>
-            <h3>Administrative Support</h3>
+            <h4>Administrative Support</h4>
             <ul>
                 <li>Kelly Katz, Society of Fellows, Harvard University</li>
                 <li>
@@ -61,7 +61,7 @@ const Acknowledgments = () => (
         </p>
 
         <p>
-            <h3>Technical Development</h3>
+            <h4>Technical Development</h4>
             <ul>
                 <li>Thawsitt Naing</li>
                 <li>Katherine McDonough</li>
@@ -72,7 +72,7 @@ const Acknowledgments = () => (
         </p>
 
         <p>
-            <h3>Manuscript Transcription</h3>
+            <h4>Manuscript Transcription</h4>
             <ul>
                 <li>Carole Avignon</li>
                 <li>Véronique Beaulande-Barraud</li>
@@ -88,7 +88,7 @@ const Acknowledgments = () => (
         </p>
 
         <p>
-            <h3>Text Transcription</h3>
+            <h4>Text Transcription</h4>
             <ul>
                 <li>Lane Baker</li>
                 <li>Teddy Delwiche</li>
@@ -105,7 +105,7 @@ const Acknowledgments = () => (
         </p>
 
         <p>
-            <h3>Mapping</h3>
+            <h4>Mapping</h4>
             <ul>
                 <li>Eleanor Goerss</li>
                 <li>Clara Romani</li>
@@ -115,7 +115,7 @@ const Acknowledgments = () => (
         </p>
 
         <p>
-            <h3>Additional Thanks</h3>
+            <h4>Additional Thanks</h4>
             <ul>
                 <li>Guido Alfonsi</li>
                 <li>Elisa Tosi Brandi</li>
@@ -141,7 +141,7 @@ const Acknowledgments = () => (
                 <li>Jeffrey Witt</li>
             </ul>
         </p>
-    </main>
+    </>
 );
 
 export default Acknowledgments;

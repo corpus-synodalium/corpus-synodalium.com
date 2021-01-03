@@ -62,6 +62,10 @@ export const NavBar = () => {
                                 </a>
                             </Link>
 
+                            <Link href="/citation">
+                                <a className="dropdown-item">Citation</a>
+                            </Link>
+
                             <div className="dropdown-divider"></div>
 
                             <Link href="/acknowledgments">

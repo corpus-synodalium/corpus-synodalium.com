@@ -1,7 +1,9 @@
+import Link from 'next/link';
+
 const Repertory = () => (
-    <main role="main" className="inner cover" id="text-body">
-        <h1 className="cover-heading">Repertory</h1>
-        <h5 className="sub-heading">
+    <>
+        <h2>Repertory</h2>
+        <h5 className="sub-heading mb-2rem">
             A Repertory of Synodal Statutes and Provincial Canons, 1200-1500
         </h5>
         <p>
@@ -29,7 +31,12 @@ const Repertory = () => (
 
         <p>
             The repertory is for public use, but users are kindly requested to
-            acknowledge it in any research that draws on it.
+            acknowledge it in any research that draws on it. Citation guidelines
+            may be found{' '}
+            <Link href="/citation">
+                <a>here</a>
+            </Link>
+            .
         </p>
 
         <p>[Database updated 09 May 2019]</p>
@@ -48,7 +55,7 @@ const Repertory = () => (
         </p>
 
         <br />
-    </main>
+    </>
 );
 
 export default Repertory;
