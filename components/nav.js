@@ -48,22 +48,18 @@ export const NavBar = () => {
                                 <a className="dropdown-item">Documentation</a>
                             </Link>
 
-                            <Link href="/bibliography">
-                                <a className="dropdown-item">Bibliography</a>
-                            </Link>
-
                             <Link href="/repertory">
                                 <a className="dropdown-item">Repertory</a>
+                            </Link>
+
+                            <Link href="/bibliography">
+                                <a className="dropdown-item">Bibliography</a>
                             </Link>
 
                             <Link href="/further_resources">
                                 <a className="dropdown-item">
                                     Further Resources
                                 </a>
-                            </Link>
-
-                            <Link href="/citation">
-                                <a className="dropdown-item">Citation</a>
                             </Link>
 
                             <div className="dropdown-divider"></div>
@@ -74,6 +70,12 @@ export const NavBar = () => {
                                     href="./pages/acknowledgment.html"
                                 >
                                     Acknowledgments
+                                </a>
+                            </Link>
+
+                            <Link href="/citation">
+                                <a className="dropdown-item">
+                                    Citation Guidelines
                                 </a>
                             </Link>
                         </div>
