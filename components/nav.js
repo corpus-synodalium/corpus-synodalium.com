@@ -29,6 +29,11 @@ export const NavBar = () => {
                             <a className="nav-link">About</a>
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link href="/tutorial">
+                            <a className="nav-link">Tutorial</a>
+                        </Link>
+                    </li>
                     <li className="nav-item dropdown">
                         <a
                             className="nav-link dropdown-toggle"
@@ -44,6 +49,12 @@ export const NavBar = () => {
                             className="dropdown-menu"
                             x-placement="bottom-start"
                         >
+                            <Link href="/citation">
+                                <a className="dropdown-item">
+                                    Citation Guidelines
+                                </a>
+                            </Link>
+
                             <Link href="/documentation">
                                 <a className="dropdown-item">Documentation</a>
                             </Link>
@@ -54,12 +65,6 @@ export const NavBar = () => {
 
                             <Link href="/bibliography">
                                 <a className="dropdown-item">Bibliography</a>
-                            </Link>
-
-                            <Link href="/further_resources">
-                                <a className="dropdown-item">
-                                    Further Resources
-                                </a>
                             </Link>
 
                             <div className="dropdown-divider"></div>
@@ -73,9 +78,9 @@ export const NavBar = () => {
                                 </a>
                             </Link>
 
-                            <Link href="/citation">
+                            <Link href="/further_resources">
                                 <a className="dropdown-item">
-                                    Citation Guidelines
+                                    Further Resources
                                 </a>
                             </Link>
                         </div>

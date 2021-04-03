@@ -1,7 +1,11 @@
+import Head from 'next/head';
 import Link from 'next/link';
 
 const Citation = () => (
     <>
+        <Head>
+            <title>Corpus Synodalium | Citation Guidelines</title>
+        </Head>
         <h2 className="mb-2rem">Citation Guidelines</h2>
         <p>
             Anyone is welcome to use this project (including the repertory,

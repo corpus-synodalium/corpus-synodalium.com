@@ -136,3 +136,16 @@ footer a:hover {
 .home-page-btn {
     min-width: 240px;
 }
+
+.btn-documentation {
+    min-width: 500px;
+    text-align: center;
+}
+
+.documentation-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0;
+}

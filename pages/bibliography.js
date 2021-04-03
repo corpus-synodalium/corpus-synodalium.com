@@ -1,5 +1,10 @@
+import Head from 'next/head';
+
 const Bibliography = () => (
     <>
+        <Head>
+            <title>Corpus Synodalium | Bibliography</title>
+        </Head>
         <div className="jumbotron">
             <h2>Bibliography</h2>
             <hr className="my-4" />

@@ -1,5 +1,10 @@
+import Head from 'next/head';
+
 const FurtherResources = () => (
     <>
+        <Head>
+            <title>Corpus Synodalium | Further Resources</title>
+        </Head>
         <h2 className="mb-2rem">Further Resources</h2>
         <p>
             For those interested in comparing this local legislation with texts

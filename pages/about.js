@@ -1,5 +1,10 @@
+import Head from 'next/head';
+
 const About = () => (
     <>
+        <Head>
+            <title>Corpus Synodalium | About</title>
+        </Head>
         <h2 className="mb-2rem">Project Description</h2>
 
         <p>
@@ -34,7 +39,7 @@ const About = () => (
 
         <p>
             Comparative work on this local ecclesiastical legislation has been
-            hampered by the scattered nature of these sources. At least 2000
+            hampered by the scattered nature of these sources. More than 2100
             distinct texts survive for the period 1200-1500, and many of these
             remain in manuscript or are available only in rare early modern
             printed editions. Over the past few years, the project leader (Rowan

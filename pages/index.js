@@ -13,10 +13,12 @@ const Home = () => (
             This is a database-in-progress of extant local ecclesiastical
             legislation issued across Latin Christendom from ca. 1215 - ca.
             1400. The corpus includes mainly diocesan statutes and provincial
-            canons, but other genres appear on occasion. Currently, the database
-            includes 1300 texts, with roughly 250 still to be added. Most of
-            these texts have been taken from modern and early modern editions,
-            but others have been transcribed directly from manuscripts.
+            canons, but other genres appear on occasion. The database currently
+            includes 1400 texts, accounting for nearly ninety percent of the
+            extant material from the thirteenth and fourteenth centuries. Most
+            of these texts have been taken from modern and early modern
+            editions, but others have been transcribed directly from
+            manuscripts.
         </p>
 
         <p>

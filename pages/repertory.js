@@ -1,7 +1,11 @@
+import Head from 'next/head';
 import Link from 'next/link';
 
 const Repertory = () => (
     <>
+        <Head>
+            <title>Corpus Synodalium | Repertory</title>
+        </Head>
         <h2>Repertory</h2>
         <h5 className="sub-heading mb-2rem">
             A Repertory of Synodal Statutes and Provincial Canons, 1200-1500
@@ -18,15 +22,10 @@ const Repertory = () => (
             provincial canons, but other scattered genres appear on occasion. It
             includes selective references to existing editions and manuscripts
             of each text; fuller information can be found by consulting the
-            individual editions or (where available) local repertories. Note
-            that the Spanish entries are somewhat incomplete for the remaining
-            dioceses not yet covered by the <i>Synodicon Hispanum</i>, while the
-            reliability and thoroughness for other parts of Europe depends
-            largely on the quality of existing repertories and editions (or
-            absence thereof). It continues to be updated regularly based on
-            further findings, so please share corrections and/or additions.
-            Texts that have been added to the database are highlighted in light
-            grey.
+            individual editions or (where available) local repertories. It
+            continues to be updated regularly based on further findings, so
+            please share corrections and/or additions. Texts that have been
+            added to the database are highlighted in light grey.
         </p>
 
         <p>
