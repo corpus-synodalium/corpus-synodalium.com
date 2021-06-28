@@ -30,8 +30,8 @@ export const NavBar = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link href="/tutorial">
-                            <a className="nav-link">Tutorial</a>
+                        <Link href="/tutorials">
+                            <a className="nav-link">Tutorials</a>
                         </Link>
                     </li>
                     <li className="nav-item dropdown">
