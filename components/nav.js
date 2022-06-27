@@ -70,12 +70,11 @@ export const NavBar = () => {
                             <div className="dropdown-divider"></div>
 
                             <Link href="/acknowledgments">
-                                <a
-                                    className="dropdown-item"
-                                    href="./pages/acknowledgment.html"
-                                >
-                                    Acknowledgments
-                                </a>
+                                <a className="dropdown-item">Acknowledgments</a>
+                            </Link>
+
+                            <Link href="/publications">
+                                <a className="dropdown-item">Publications</a>
                             </Link>
 
                             <Link href="/further_resources">

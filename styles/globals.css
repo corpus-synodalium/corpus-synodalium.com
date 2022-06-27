@@ -149,3 +149,11 @@ footer a:hover {
     align-items: center;
     margin: 48px 0;
 }
+
+.publications-list li {
+    padding-bottom: 24px;
+}
+
+.publications-list li i {
+    padding-right: 4px;
+}

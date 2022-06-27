@@ -39,9 +39,12 @@ const Home = () => (
             <Link href="/documentation">
                 <a>navigate</a>
             </Link>{' '}
-            the database. For further details, please contact the project
-            leader, Rowan Dorin (
-            <a href="mailto:dorin@stanford.edu">dorin@stanford.edu</a>
+            the database. Valuable advice for first-time users can also be found{' '}
+            <Link href="/files/advice_for_first_time_users.pdf">
+                <a>here</a>
+            </Link>
+            . For further details, please contact the project leader, Rowan
+            Dorin (<a href="mailto:dorin@stanford.edu">dorin@stanford.edu</a>
             ).
         </p>
 
