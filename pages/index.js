@@ -12,13 +12,12 @@ const Home = () => (
         <p>
             This is a database-in-progress of extant local ecclesiastical
             legislation issued across Latin Christendom from ca. 1215 - ca.
-            1400. The corpus includes mainly diocesan statutes and provincial
+            1500. The corpus includes mainly diocesan statutes and provincial
             canons, but other genres appear on occasion. The database currently
-            includes 1400 texts, accounting for nearly ninety percent of the
-            extant material from the thirteenth and fourteenth centuries. Most
-            of these texts have been taken from modern and early modern
-            editions, but others have been transcribed directly from
-            manuscripts.
+            includes 1450 texts, accounting for nearly ninety percent of the
+            extant material from the thirteenth and fourteenth centuries. Future
+            updates will extend the chronological coverage into the fifteenth
+            century.
         </p>
 
         <p>
@@ -46,6 +45,11 @@ const Home = () => (
             . For further details, please contact the project leader, Rowan
             Dorin (<a href="mailto:dorin@stanford.edu">dorin@stanford.edu</a>
             ).
+        </p>
+
+        <p>
+            [Initial Project Release: June 30, 2021; last updated October 31,
+            2022]
         </p>
 
         <br />
