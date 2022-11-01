@@ -29,9 +29,56 @@ export const NavBar = () => {
                             <a className="nav-link">About</a>
                         </Link>
                     </li>
+                    <li className="nav-item dropdown">
+                        <a
+                            className="nav-link dropdown-toggle"
+                            data-toggle="dropdown"
+                            href="#"
+                            role="button"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            Using the Database
+                        </a>
+                        <div
+                            className="dropdown-menu"
+                            x-placement="bottom-start"
+                        >
+                            <Link href="/citation">
+                                <a className="dropdown-item">
+                                    Citation Guidelines
+                                </a>
+                            </Link>
+
+                            <Link href="/documentation">
+                                <a className="dropdown-item">Documentation</a>
+                            </Link>
+
+                            <Link href="/tutorials">
+                                <a className="dropdown-item">Tutorials</a>
+                            </Link>
+
+                            <div className="dropdown-divider"></div>
+
+                            <a
+                                className="dropdown-item"
+                                href="https://corpus-synodalium.com/philologic/corpus/"
+                                target="_blank"
+                            >
+                                Original Database
+                            </a>
+                            <a
+                                className="dropdown-item"
+                                href="https://corpus-synodalium.com/philologic/corpusnorm/"
+                                target="_blank"
+                            >
+                                Normalized Database
+                            </a>
+                        </div>
+                    </li>
                     <li className="nav-item">
-                        <Link href="/tutorials">
-                            <a className="nav-link">Tutorials</a>
+                        <Link href="/repertory">
+                            <a className="nav-link">Repertory</a>
                         </Link>
                     </li>
                     <li className="nav-item dropdown">
@@ -49,22 +96,6 @@ export const NavBar = () => {
                             className="dropdown-menu"
                             x-placement="bottom-start"
                         >
-                            <Link href="/citation">
-                                <a className="dropdown-item">
-                                    Citation Guidelines
-                                </a>
-                            </Link>
-
-                            <Link href="/documentation">
-                                <a className="dropdown-item">Documentation</a>
-                            </Link>
-
-                            <Link href="/repertory">
-                                <a className="dropdown-item">Repertory</a>
-                            </Link>
-
-                            <div className="dropdown-divider"></div>
-
                             <Link href="/acknowledgments">
                                 <a className="dropdown-item">Acknowledgments</a>
                             </Link>
@@ -82,37 +113,6 @@ export const NavBar = () => {
                                     Further Resources
                                 </a>
                             </Link>
-                        </div>
-                    </li>
-                    <li className="nav-item dropdown">
-                        <a
-                            className="nav-link dropdown-toggle"
-                            data-toggle="dropdown"
-                            href="#"
-                            role="button"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                        >
-                            Explore Database
-                        </a>
-                        <div
-                            className="dropdown-menu"
-                            x-placement="bottom-start"
-                        >
-                            <a
-                                className="dropdown-item"
-                                href="https://corpus-synodalium.com/philologic/corpus/"
-                                target="_blank"
-                            >
-                                Original Database
-                            </a>
-                            <a
-                                className="dropdown-item"
-                                href="https://corpus-synodalium.com/philologic/corpusnorm/"
-                                target="_blank"
-                            >
-                                Normalized Database
-                            </a>
                         </div>
                     </li>
                 </ul>
