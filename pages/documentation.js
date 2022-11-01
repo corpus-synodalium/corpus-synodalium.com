@@ -77,13 +77,9 @@ const Documentation = () => (
                 .
             </p>
             <p>
-                The boundary files used to create the mapping tool can be
-                downloaded via the Digital Atlas of Dioceses and Ecclesiastical
-                Provinces in Late Medieval Europe, 1200-1500{' '}
-                <a
-                    href="https://searchworks.stanford.edu/view/ds112yt9877"
-                    target="_blank"
-                >
+                For changes made to the database and repertory since the initial
+                release of the project in July 2021, see{' '}
+                <a href="/files/addenda_et_corrigenda.pdf" target="_blank">
                     here
                 </a>
                 .
