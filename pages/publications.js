@@ -58,7 +58,7 @@ const Publications = () => (
                 Digital Age.” In{' '}
                 <i>Digital Medieval Studies—Practice and Preservation</i>, eds.
                 Laura Morreale and Sean Gilsdorf, 49-75. Leeds: ARC Humanities
-                Press, forthcoming.
+                Press, 2022.
             </li>
 
             <li>
@@ -132,8 +132,8 @@ const Publications = () => (
 
             <li>
                 Somogyi, Szilvia. “Das spätmittelalterliche Synodalbuch der
-                Diözese von Gran.” <i>Annales Historiae Conciliorum</i> 51
-                (2021), in press.
+                Diözese von Gran.” <i>Annales Historiae Conciliorum</i> 50, no.
+                2 (2020): 395-416.
             </li>
         </ul>
     </>
