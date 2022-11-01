@@ -39,7 +39,7 @@ const About = () => (
 
         <p>
             Comparative work on this local ecclesiastical legislation has been
-            hampered by the scattered nature of these sources. More than 2100
+            hampered by the scattered nature of these sources. Roughly 2300
             distinct texts survive for the period 1200-1500, and many of these
             remain in manuscript or are available only in rare early modern
             printed editions. Over the past few years, the project leader (Rowan
@@ -59,7 +59,7 @@ const About = () => (
             survival of local specificities, and the willingness of local
             authorities to embrace, resist, imitate, or innovate in the face of
             papal directives. And given the breadth of topics encompassed within
-            this corpus – from marriage to moneylending – the full-text corpus
+            this genre – from marriage to moneylending – the full-text corpus
             will hopefully become a point of reference for anyone pursuing
             research on the social and religious history of late medieval
             Europe.
