@@ -35,7 +35,7 @@ const Home = () => (
                 <a>cite</a>
             </Link>{' '}
             and{' '}
-            <Link href="/documentation">
+            <Link href="/tutorials">
                 <a>navigate</a>
             </Link>{' '}
             the database. Valuable advice for first-time users can also be found{' '}
