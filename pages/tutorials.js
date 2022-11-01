@@ -23,6 +23,16 @@ const Tutorial = () => (
                 <p className="lead">
                     <a
                         className="btn btn-primary btn-lg btn-documentation"
+                        href="/files/advice_for_first_time_users.pdf"
+                        target="_blank"
+                        role="button"
+                    >
+                        Advice for first time users (PDF)
+                    </a>
+                </p>
+                <p className="lead">
+                    <a
+                        className="btn btn-primary btn-lg btn-documentation"
                         href="/files/tutorial_01_word_search.pdf"
                         target="_blank"
                         role="button"
@@ -48,16 +58,6 @@ const Tutorial = () => (
                         role="button"
                     >
                         3. Mapping Tool (PDF)
-                    </a>
-                </p>
-                <p className="lead">
-                    <a
-                        className="btn btn-primary btn-lg btn-documentation"
-                        href="/files/advice_for_first_time_users.pdf"
-                        target="_blank"
-                        role="button"
-                    >
-                        Advice for first time users (PDF)
                     </a>
                 </p>
             </div>
