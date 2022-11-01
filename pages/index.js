@@ -39,11 +39,14 @@ const Home = () => (
                 <a>navigate</a>
             </Link>{' '}
             the database. Valuable advice for first-time users can also be found{' '}
-            <Link href="/files/advice_for_first_time_users.pdf">
-                <a>here</a>
-            </Link>
+            <a target="_blank" href="/files/advice_for_first_time_users.pdf">
+                here
+            </a>
             . For further details, please contact the project leader, Rowan
-            Dorin (<a href="mailto:dorin@stanford.edu">dorin@stanford.edu</a>
+            Dorin (
+            <a href="mailto:dorin@stanford.edu" target="_blank">
+                dorin@stanford.edu
+            </a>
             ).
         </p>
 

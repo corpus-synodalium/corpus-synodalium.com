@@ -63,14 +63,14 @@ export const NavBar = () => {
                                 <a className="dropdown-item">Repertory</a>
                             </Link>
 
-                            <Link href="/bibliography">
-                                <a className="dropdown-item">Bibliography</a>
-                            </Link>
-
                             <div className="dropdown-divider"></div>
 
                             <Link href="/acknowledgments">
                                 <a className="dropdown-item">Acknowledgments</a>
+                            </Link>
+
+                            <Link href="/bibliography">
+                                <a className="dropdown-item">Bibliography</a>
                             </Link>
 
                             <Link href="/publications">
