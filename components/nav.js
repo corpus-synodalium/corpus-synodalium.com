@@ -81,6 +81,11 @@ export const NavBar = () => {
                             <a className="nav-link">Repertory</a>
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link href="/digital_atlas">
+                            <a className="nav-link">Digital Atlas</a>
+                        </Link>
+                    </li>
                     <li className="nav-item dropdown">
                         <a
                             className="nav-link dropdown-toggle"
@@ -92,10 +97,7 @@ export const NavBar = () => {
                         >
                             Learn More
                         </a>
-                        <div
-                            className="dropdown-menu"
-                            x-placement="bottom-start"
-                        >
+                        <div className="dropdown-menu" id="last-dropdown-menu">
                             <Link href="/acknowledgments">
                                 <a className="dropdown-item">Acknowledgments</a>
                             </Link>

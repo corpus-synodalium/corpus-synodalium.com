@@ -61,6 +61,11 @@ h5 {
     transform: translate3d(0px, 38px, 0px);
 }
 
+.dropdown-menu#last-dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
 /* text */
 
 p {
