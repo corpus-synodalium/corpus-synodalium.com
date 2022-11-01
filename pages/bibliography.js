@@ -9,8 +9,9 @@ const Bibliography = () => (
             <h2>Bibliography</h2>
             <hr className="my-4" />
             <p>
-                Please refer to the PDF file below for complete citations of all
-                manuscript and printed sources used in the corpus.
+                Please refer to the PDF file below for complete citations of
+                manuscript and printed sources used in the repertory and
+                database.
             </p>
             <br />
             <p className="lead">
