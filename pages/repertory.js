@@ -38,7 +38,7 @@ const Repertory = () => (
             .
         </p>
 
-        <p>[Repertory updated October 31, 2022]</p>
+        <p>[Repertory updated March 24, 2025]</p>
 
         <br />
 

@@ -26,14 +26,14 @@ const Citation = () => (
                 Corpus Synodalium: Local Ecclesiastical Legislation in Medieval
                 Europe
             </i>
-            , 30 June 2021, www.corpus-synodalium.com. Accessed DD/MM/YYYY.
+            , 05 May 2025, www.corpus-synodalium.com. Accessed DD/MM/YYYY.
         </p>
 
         <p>To cite the working repertory:</p>
 
         <p className="sample-citation">
             Dorin, Rowan. “A Repertory of Synodal Statutes and Provincial
-            Canons, 1200-1500.” <i>Corpus Synodalium</i>, 30 June 2021,
+            Canons, 1200-1500.” <i>Corpus Synodalium</i>, 05 May 2025,
             www.corpus-synodalium.com/repertory. Accessed DD/MM/YYYY.
         </p>
 

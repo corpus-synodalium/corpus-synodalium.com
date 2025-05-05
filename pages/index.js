@@ -14,10 +14,10 @@ const Home = () => (
             legislation issued across Latin Christendom from ca. 1215 - ca.
             1500. The corpus includes mainly diocesan statutes and provincial
             canons, but other genres appear on occasion. The database currently
-            includes 1450 texts, accounting for nearly ninety percent of the
-            extant material from the thirteenth and fourteenth centuries. Future
-            updates will extend the chronological coverage into the fifteenth
-            century.
+            includes more than 1700 texts, accounting for nearly ninety percent
+            of the extant material from the thirteenth and fourteenth centuries.
+            Future updates will extend the chronological coverage into the
+            fifteenth century.
         </p>
 
         <p>
@@ -51,8 +51,13 @@ const Home = () => (
         </p>
 
         <p>
-            [Initial Project Release: June 30, 2021; last updated October 31,
-            2022]
+            [Initial Project Release: June 30, 2021; last updated May 05, 2025.
+            For a list of edits since the preceding update (on October 31,
+            2022), see{' '}
+            <a target="_blank" href="/files/addenda_et_corrigenda.pdf">
+                here
+            </a>
+            ]
         </p>
 
         <br />

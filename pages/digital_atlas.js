@@ -43,6 +43,24 @@ const DigitalAtlas = () => (
             Creative Commons Attribution 3.0 Unported License. Corrections and
             suggestions for improving the <i>Digital Atlas</i> are very welcome.
         </p>
+
+        <p>
+            The <i>Corpus Synodalium</i> project has initiated a collaboration
+            with{' '}
+            <a
+                href="https://www.lhlt.mpg.de/3475505/02-albani-orbis-dioecesium-jp?c=2136899"
+                target="_blank"
+            >
+                Orbis Dioecesium
+            </a>
+            , a project led by{' '}
+            <a href="https://www.lhlt.mpg.de/albani/en.html" target="_blank">
+                Benedetta Albani
+            </a>{' '}
+            (Frankfurt, Max Planck Institute for Legal History and Legal
+            Theory), aimed at integrating the data of both projects and making
+            them accessible through a single platform.
+        </p>
     </>
 );
 
