@@ -2,19 +2,22 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, install the dependencies using `yarn install` or `npm i`.
-
-Next, run the development server:
+npm
 
 ```bash
-yarn dev
-# or
+npm i
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+yarn
+yarn dev
+```
+
+- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## How to update the content
 
@@ -34,6 +37,14 @@ Here are some common scenarios.
     In this case, you need to modify `pages/documentation.js`.
 -   **Adding a new page**: Add a new file in `pages`. Follow the same naming convention as other files.
     Then, add a link to the new page in the nav bar. (`components/nav.js`)
+
+## Auto-formatting the code
+
+```bash
+npm run lint
+# or
+yarn lint
+```
 
 ## How to deploy your new changes to update the website
 
