@@ -12,7 +12,7 @@ const DigitalAtlas = () => (
         </h5>
         <p>
             Among the novel features of the <i>Corpus Synodalium</i> database is
-            the ability to visualize search results spatially via the new
+            the ability to visualize search results spatially via the new{' '}
             <i>
                 Digital Atlas of Dioceses and Ecclesiastical Provinces in Late
                 Medieval Europe (1200-1500)
