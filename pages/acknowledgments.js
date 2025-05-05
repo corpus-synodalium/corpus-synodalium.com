@@ -53,6 +53,10 @@ const Acknowledgments = () => (
                     June-August 2018)
                 </li>
                 <li>
+                    Stanford University, Kimberly Glenn Faculty Fellowship
+                    (Sept. 2023-Aug. 2025)
+                </li>
+                <li>
                     Stanford University, Denning Fund for Humanities and
                     Technologies (June 2018-June 2019)
                 </li>
@@ -93,6 +97,7 @@ const Acknowledgments = () => (
                 <li>Lena Cavicchia</li>
                 <li>Teddy Delwiche</li>
                 <li>Emma Grover</li>
+                <li>Finley Ho</li>
                 <li>Medina Husakovic</li>
                 <li>Sara Ann Knutson</li>
                 <li>Jiha Min</li>
@@ -140,6 +145,10 @@ const Acknowledgments = () => (
                 <li>Maria Amélia Álvaro de Campos</li>
                 <li>Elodie Chaudet</li>
                 <li>Laurence Delobette</li>
+                <li>Paul Delsalle</li>
+                <li>Angelo Floramo</li>
+                <li>Sabina Francescatto</li>
+                <li>Matthäus Freitag</li>
                 <li>Luca Gianni</li>
                 <li>Clovis Gladstone</li>
                 <li>Johnny Grandjean Gøgsig Jakobsen</li>
