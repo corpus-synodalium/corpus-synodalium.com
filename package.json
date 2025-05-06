@@ -9,7 +9,7 @@
     "lint": "prettier --write \"pages/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "next": "10.0.4",
+    "next": "12.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
